@@ -28,3 +28,9 @@ print("2. Subtraction")
 print("3. Multiplication")
 print("4. Division")
 print("5. Raise a power")
+
+
+choice = input("Enter choice: ")
+
+first_num = float(input("Enter first number: "))
+second_num = float(input("Enter second number: "))
