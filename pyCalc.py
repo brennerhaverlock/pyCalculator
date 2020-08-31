@@ -34,3 +34,10 @@ choice = input("Enter choice: ")
 
 first_num = float(input("Enter first number: "))
 second_num = float(input("Enter second number: "))
+
+if choice == '1':
+    print(first_num, "+", second_num, "=", add(first_num, second_num))
+elif choice == '2':
+    print(first_num, "-", second_num, "=", subtract(first_num, second_num))
+elif choice == '3':
+    print(first_num, "*", second_num, "=", multiply(first_num, second_num))
