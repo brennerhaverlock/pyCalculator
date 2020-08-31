@@ -41,3 +41,9 @@ elif choice == '2':
     print(first_num, "-", second_num, "=", subtract(first_num, second_num))
 elif choice == '3':
     print(first_num, "*", second_num, "=", multiply(first_num, second_num))
+elif choice == '4':
+    print(first_num, "/", second_num, divide(first_num, second_num))
+elif choice == '5':
+    print(first_num, '**', second_num, '=', exp(first_num, second_num))
+else:
+    print("Please pick a valid input number/operation")
