@@ -32,8 +32,8 @@ print("5. Raise a power")
 
 choice = input("Enter choice: ")
 
-first_num = float(input("Enter first number: "))
-second_num = float(input("Enter second number: "))
+first_num = int(input("Enter first number: "))
+second_num = int(input("Enter second number: "))
 
 if choice == '1':
     print(first_num, "+", second_num, "=", add(first_num, second_num))
